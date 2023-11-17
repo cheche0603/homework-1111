@@ -27,19 +27,22 @@ p{
 }
 
 .wrapper{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    background-color: rgb(247, 66, 47); 
+    /* background-color: rgb(247, 66, 47);  */
 
 }
 
 header{
+    width: 100%;
     background-color: rgb(247, 66, 47); 
 }
 
 .topbar{
     height: 28px;
   display: block;
+  background-color: rgb(247, 66, 47); 
+
 }
 
 .topbar .topbar-item-link{
@@ -52,6 +55,12 @@ header{
     width: 1200px;
     margin: 0 auto;
     height: 100%;
+}
+
+.content_flex--bg{
+    width: 100%;
+    background-color: rgb(247, 66, 47); 
+
 }
 
 .hotword_list,.list{
@@ -84,8 +93,8 @@ header{
     display: block;
 }
 .content_flex{
-    margin: 4px 0;
     display: flex;
+    background-color: rgb(247, 66, 47); 
  
 }
 
@@ -188,14 +197,14 @@ transform: translate(-50%,-50%);
     padding: auto 0;
 }
 
-.pointer-main{
+.pointer_bigscreen{
     display: inline-block;
     width: 860px;
     height: 365px;
     border: 0px solid #000;
 }
 
-.pointer_right{
+.pointer_GuessYouWant{
     display: inline-block;
     width: 340px;
     height: 365px;
@@ -230,13 +239,13 @@ transform: translate(-50%,-50%);
     font-size: 14px;
 }
 
-.pointer_right{
+.pointer_GuessYouWant{
     vertical-align: top;
     padding: 20px 0 20px 16px;
 }
 
 
-.pointer_right .title{
+.pointer_GuessYouWant .title{
     height: 49px;
     width: 324px;
     padding: 8px 16px;
@@ -251,18 +260,18 @@ transform: translate(-50%,-50%);
     margin: 0px 8px 0 0;
     border-radius: 4px;
 }
-.pointer_right .title .title-word{
+.pointer_GuessYouWant .title .title-word{
     display: inline-block;
     vertical-align: top;
 }
 
-.pointer_right .product-card{
+.pointer_GuessYouWant .product-card{
     height: 138px;
     width: 324px;
     padding: 12px 16px;
 }
 
-.pointer_right .product-card .product-text{
+.pointer_GuessYouWant .product-card .product-text{
     width: 166px;
     height: 114px;
     display: inline-block;
@@ -270,7 +279,7 @@ transform: translate(-50%,-50%);
     color: #000;
 }
 
-.pointer_right .product-card .product-name{
+.pointer_GuessYouWant .product-card .product-name{
     height: 44px;
     width: 166px;
    display: inline-block;
@@ -281,7 +290,7 @@ transform: translate(-50%,-50%);
   
 }
 
-.pointer_right .product-card .origin-price{
+.pointer_GuessYouWant .product-card .origin-price{
     width: 166px;
     height: 20px;
     display: inline-block;
@@ -291,31 +300,31 @@ transform: translate(-50%,-50%);
     font-size: 14px;
 }
 
-.pointer_right .product-card .small-font{
+.pointer_GuessYouWant .product-card .small-font{
     font-size: 14px;
     color: #F7422F;
 }
 
-.pointer_right .product-card .big-font{
+.pointer_GuessYouWant .product-card .big-font{
     font-size: 20px;
     color: #F7422F;
 
 }
 
-.pointer_right-col{
+.pointer_GuessYouWant-col{
     width: 100%;
     height: 324px;
     border-radius:5px;
     background-color:#FFF;
 }
 
-.pointer-main .swiper {
+.pointer_bigscreen .swiper {
     position: relative;
     width: 100%;
     height: 100%;
   }
 
-  .pointer-main .swiper-slide {
+  .pointer_bigscreen .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -324,14 +333,14 @@ transform: translate(-50%,-50%);
     align-items: center;
   }
 
-  .pointer-main .swiper-slide img {
+  .pointer_bigscreen .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .pointer-main .swiper-button-lift ,.swiper-button-right{
+  .pointer_bigscreen .swiper-button-lift ,.swiper-button-right{
     position: absolute;
     display: block;
     top: 50%;
@@ -339,11 +348,11 @@ transform: translate(-50%,-50%);
     z-index: 1;
   }
 
-.pointer-main .swiper-button-lift{
+.pointer_bigscreen .swiper-button-lift{
     left: 0;
   }
 
-  .pointer-main .swiper-button-right{
+  .pointer_bigscreen .swiper-button-right{
     right: 0;
   }
 
