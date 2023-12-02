@@ -411,6 +411,7 @@ transform: translate(-50%,-50%);
 
   .product_header{
     height: 56px;
+    padding: 16px 0;
   }
 
   .product_header .title{
