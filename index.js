@@ -1,5 +1,5 @@
   
- var swiper = new Swiper(".mySwiper", {
+ const a = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
@@ -18,7 +18,7 @@
 
 
 
-var swiper = new Swiper(".list_swiper", {
+const b = new Swiper(".list_swiper", {
     slidesPerView: 10,
   spaceBetween: 30,
   navigation: {
@@ -29,7 +29,7 @@ var swiper = new Swiper(".list_swiper", {
 
 
 
-var swiper = new Swiper(".product_flashsale_swiper", {
+const c = new Swiper(".product_flashsale_swiper", {
   slidesPerView: 5,
   spaceBetween: 30,
   pagination: {
@@ -43,13 +43,13 @@ var swiper = new Swiper(".product_flashsale_swiper", {
 });
 
 
-var swiper = new Swiper(".product_hotclass_swiper", {
+const d = new Swiper(".product_hotclass_swiper", {
   loop : true,
   slidesPerView: 10,
 spaceBetween: 30,
 });
 
-var swiper = new Swiper(".theme_product", {
+const e = new Swiper(".theme_product", {
   slidesPerView: 3,
   slidesPerGroup : 3,
   spaceBetween: 20,

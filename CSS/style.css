@@ -419,7 +419,7 @@ transform: translate(-50%,-50%);
     width: 100%;
   }
 
-  .product_header .title-word ,.hotclass .hotclass_title .title-word{
+  .product_header .title-word ,.hotclass .hotclass_title .title-word ,.GuessYouWant_title .title-word{
     position: absolute;
     display: inline-block;
     vertical-align: top;
@@ -525,6 +525,7 @@ transform: translate(-50%,-50%);
   .theme{
     width: 1200px;
     height: 315px;
+    margin-bottom: 50px;
   }
 
   .theme .theme_banner img{
@@ -538,6 +539,9 @@ transform: translate(-50%,-50%);
   }
 
   .theme_contant{
+    top: 50%; left:50%;
+    transform: translate(10%,-50%);
+
     position: absolute;
     height: 251px;
     width: 526px;
@@ -572,4 +576,92 @@ transform: translate(-50%,-50%);
 
   .theme .swiper-button-right{
     right: 0;
+  }
+
+  .GuessYouWant_col{
+  height: 460px;
+  margin-bottom: 16px;
+  }
+
+  .GuessYouWant_col .col_product{
+    width: 227px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #DCDCDC;
+    background-color: transparent;
+  }
+
+  .GuessYouWant_title {
+    margin-bottom: 16px;
+  }
+
+  .GuessYouWant_col .col_product .col_image{
+    width: 225px;
+    height: 225px;
+    margin-bottom: 20px;
+  }
+
+  .GuessYouWant_col .col_product .col_image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .GuessYouWant_col .col_product .col_word{
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 8px;
+    height: 210px;
+  }
+
+  .GuessYouWant_col a{
+    color: #000;
+  }
+
+  .GuessYouWant_col .col_product .col_word .product_title{
+    height: 44px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .GuessYouWant_col .col_product .col_word .product_discount{ 
+  background-color: rgb(254, 236, 234);
+  min-width: 61px;
+  height: 22px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  color: rgb(249, 104, 89);
+  font-family: Spartan800;
+  }
+
+  .GuessYouWant_col .col_product .col_word .product_price{
+    display: inline-block;
+    color: rgb(247, 66, 47);
+    font-size: 24px;
+    margin-right: 2px;
+  font-weight: bold;
+
+  }
+
+  .GuessYouWant_col .col_product .col_word .small-font{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 14px;
+    color: rgb(247, 66, 47);
+    line-height: 1.3;
+  }
+
+  .col_product:hover{
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67) 0s;
+    border: 1px solid #F7422F;
+    transform:translate(0,-8px);
   }
